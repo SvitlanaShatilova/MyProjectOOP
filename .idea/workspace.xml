@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP">
+      <change afterPath="$PROJECT_DIR$/src/Homework0805/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.Matrix">
     <configuration name="Demo.Conctruction.Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo.Conctruction.Car" />
       <module name="MyProjectOOP" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methodsOfClass.Main" />
+    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework0805.Matrix" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methodsOfClass.*" />
+          <option name="PATTERN" value="Homework0805.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Matrix" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.Demo.Incaps.Main" />
         <item itemvalue="Application.Demo.Conctruction.Main" />
         <item itemvalue="Application.Demo.Conctruction.Car" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683993585209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="OOP">
+      <created>1683994773097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683994773097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
