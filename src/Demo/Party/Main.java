@@ -24,9 +24,6 @@ Capitan    із кімнати номер:  42
 Вигнали: John Max, Capitan
 Присутні:
 WillSmo... із кімнати номер:   1
-
-
-
 * зверніть увага на формат - список має бути красиво надрукований як табличка*/
 public class Main {
     public static void main(String[] args) {
