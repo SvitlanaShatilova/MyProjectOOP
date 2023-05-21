@@ -118,27 +118,31 @@ public class Main {
 
         System.out.println();
 
+        for (Vizitor i: event.getVisitors()){
+            i.printVizitor();
+        }
 
-        vizitor1.printVizitor();
-        vizitor2.printVizitor();
-        vizitor3.printVizitor();
-        vizitor4.printVizitor();
-        vizitor5.printVizitor();
-        vizitor6.printVizitor();
-        vizitor7.printVizitor();
-        vizitor8.printVizitor();
-        vizitor9.printVizitor();
-        vizitor10.printVizitor();
-        vizitor11.printVizitor();
-        vizitor12.printVizitor();
-        vizitor13.printVizitor();
-        vizitor14.printVizitor();
-        vizitor15.printVizitor();
-        vizitor16.printVizitor();
-        vizitor17.printVizitor();
-        vizitor18.printVizitor();
-        vizitor19.printVizitor();
-        vizitor20.printVizitor();
+
+//        vizitor1.printVizitor();
+//        vizitor2.printVizitor();
+//        vizitor3.printVizitor();
+//        vizitor4.printVizitor();
+//        vizitor5.printVizitor();
+//        vizitor6.printVizitor();
+//        vizitor7.printVizitor();
+//        vizitor8.printVizitor();
+//        vizitor9.printVizitor();
+//        vizitor10.printVizitor();
+//        vizitor11.printVizitor();
+//        vizitor12.printVizitor();
+//        vizitor13.printVizitor();
+//        vizitor14.printVizitor();
+//        vizitor15.printVizitor();
+//        vizitor16.printVizitor();
+//        vizitor17.printVizitor();
+//        vizitor18.printVizitor();
+//        vizitor19.printVizitor();
+//        vizitor20.printVizitor();
 
     }
 
