@@ -1,8 +1,8 @@
-package Demo.Party;
-
-public class VizitorNameServise {
-}
-
+//package Demo.Party;
+//
+//public class VizitorNameServise {
+//}
+//
 
 //
 //public class Vizitor {

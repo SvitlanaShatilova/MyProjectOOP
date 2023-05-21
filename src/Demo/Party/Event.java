@@ -14,43 +14,20 @@ visitors -- список відвідувачів
 - дати можливість вивести весь список у читабельному виді - Вечірка: Паті на Хаті, присутні: 120 відвідувачів*/
 public class Event {
     final String title = "Паті на Хаті";
-    private String visitors;
+    private Vizitor[] visitors = new Vizitor[0];
 
-    public Event(String visitors) {
-        this.visitors = visitors;
+    public Event() {
     }
 
-    public String getVisitors() {
+    public Vizitor[] getVisitors() {
         return visitors;
     }
 
-    public void setVisitors(String visitors) {
+    public void setVisitors(Vizitor[] visitors) {
         this.visitors = visitors;
     }
-    public static String[] deleteName(String... args) {
-        String[] arrayName = new String[args.length];
 
-        for (int i = 0; i < args.length; i++) {
-            int n = 0;
-            int b = 0;
-            for (int j = 1; j < args.length; j++) {
-                if (args[i] == args[j]) {
-                    n++;
-                }
-            }
-            if (n==0){
-                arrayName[b] = args[i];
-                b++;
-                }else{
-                n=0;
-                }
-            }
-        return arrayName;
+    public void printVisitors(){
+        System.out.println("Вечірка: " + title + ", присутні: " + (visitors.length+1) + " відвідувачів");
     }
-
-    public static void main(String[] args) {
-
-
-    }
-
 }

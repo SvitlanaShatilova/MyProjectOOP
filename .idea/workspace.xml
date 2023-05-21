@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP">
-      <change afterPath="$PROJECT_DIR$/src/Demo/Party/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Party/Vizitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo/Party/VizitorNameServise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework0805/MatrixNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo/Party/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Party/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Party/Vizitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/Vizitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Party/VizitorNameServise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/VizitorNameServise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Vizitor">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo.Party.Main" />
+      <module name="MyProjectOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Demo.Party.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework0805.Matrix" />
       <module name="MyProjectOOP" />
@@ -61,19 +74,6 @@
     </configuration>
     <configuration name="MatrixNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework0805.MatrixNew" />
-      <module name="MyProjectOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework0805.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework0805.Person" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Vizitor" />
         <item itemvalue="Application.VizitorNameServise" />
         <item itemvalue="Application.MatrixNew" />
         <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684003804424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="OOP">
+      <created>1684676795464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684676795464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
