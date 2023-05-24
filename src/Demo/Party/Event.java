@@ -48,31 +48,37 @@ public class Event {
         return temp;
     }
 
-    public static void deleteName(Vizitor[] visitors, String name) {
+    public static Vizitor[] deleteName(Vizitor[] visitors, String name) {
         Vizitor[] temp = new Vizitor[visitors.length];
         Vizitor[] tempDel;
         int n = 0;
         String delName = "Вигнали: ";
         for (int i = 0; i < visitors.length; i++) {
             if (visitors[i].getName().equals(name)) {
-               delName = delName.concat(name + ", ");
-            }else{
+                delName = delName.concat(name + ", ");
+            } else {
                 temp[n] = visitors[i];
                 n++;
             }
         }
         System.out.println(delName);
+        tempDel = new Vizitor[n];
+        for (int i = 0; i < n; i++) {
+            tempDel[i] = temp[i];
+        }
+        visitors = tempDel;
+        return visitors;
     }
 
-    public static Vizitor[]  deleteRoom(Vizitor[] visitors, int room) {
+    public static Vizitor[] deleteRoom(Vizitor[] visitors, int room) {
         Vizitor[] temp = new Vizitor[visitors.length];
         Vizitor[] tempDel;
         int n = 0;
         String delName = "Вигнали: ";
         for (int i = 0; i < visitors.length; i++) {
-            if (visitors[i].getRoom()== room) {
-                delName = delName.concat( visitors[i].getName() + ", ");
-            }else{
+            if (visitors[i].getRoom() == room) {
+                delName = delName.concat(visitors[i].getName() + ", ");
+            } else {
                 temp[n] = visitors[i];
                 n++;
 
@@ -80,13 +86,12 @@ public class Event {
         }
         System.out.println(delName);
         tempDel = new Vizitor[n];
-        for (int i = 0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             tempDel[i] = temp[i];
         }
         visitors = tempDel;
-      return visitors;
+        return visitors;
     }
-
 
 
     public static void printingInfo(Event event) {
@@ -97,6 +102,12 @@ public class Event {
         System.out.println("Вечірка: " + title);
     }
 
+    public static void printVisitor(Vizitor[] visitors) {
+        System.out.println("Присутні:");
+        for (int i = 0; i < visitors.length; i++) {
+            Vizitor.printPerson(visitors[i]);
+        }
+    }
 }
 
 

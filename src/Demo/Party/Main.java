@@ -59,26 +59,15 @@ public class Main {
         System.out.println("==================================================");
         event.printingInfo(event);
 
-        for (int i = 0; i< event.getVisitors().length; i++){
-            Vizitor.printPerson(event.getVisitors()[i]);
-        }
-        System.out.println("==================================================");
-        event.printTitle(event);
-
-        event.deleteName(event.getVisitors(), "John      ");
-
-        for (int i = 0; i< event.getVisitors().length; i++){
-            Vizitor.printPerson(event.getVisitors()[i]);
-        }
+        event.printVisitor(event.getVisitors());
 
         System.out.println("==================================================");
         event.printTitle(event);
 
-        event.deleteRoom(event.getVisitors(), 42);
+        event.setVisitors(event.deleteName(event.getVisitors(), "John      "));
 
-        for (int i = 0; i< event.getVisitors().length; i++){
-            Vizitor.printPerson(event.getVisitors()[i]);
-        }
+        event.printVisitor(event.getVisitors());
+
 
     }
 
