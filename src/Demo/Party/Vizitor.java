@@ -14,30 +14,31 @@ room -- маскимальне значення 100, при вводі якої�
 public class Vizitor {
         private String name;
         private int room;
-        public Vizitor(String name, int room){
-            this.name = name;
-            this.room = room;
-        }
-        public Vizitor(){
-        }
+        public static int registered = 0;
 
-        public String getName(){
-            return name;
-        }
+    public Vizitor(String name, int room) {
+        this.name = cutOff(name);
+        this.room = assignRoom(room);
+        registered ++;
+    }
 
-        public void setName(String name){
-            this.name = name;
-        }
+    public String getName() {
+        return name;
+    }
 
-        public int getRoom(){
-            return room;
-        }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-        public void setRoom(int room){
-            this.room = room;
-        }
+    public int getRoom() {
+        return room;
+    }
 
-        public static String cutOff(String name){
+    public void setRoom(int room) {
+        this.room = room;
+    }
+
+    public static String cutOff(String name){
             String nameTemp;
             String str = "...";
             if (name.length() > 10){
@@ -57,8 +58,14 @@ public class Vizitor {
             }
         }
 
-        public void printVizitor(){
-            System.out.println(cutOff(name) + " із кімнати номер: " + assignRoom(room));
+        public static void printPerson(Vizitor vizitor){
+            System.out.println(vizitor.getName()+ " із кімнати номер: " + vizitor.getRoom());
         }
+
+        public static void addRegistered(){
+            System.out.println("Загальна кількість зареєстрованих відвідувачів: " + registered);
+        }
+
+
 
 }

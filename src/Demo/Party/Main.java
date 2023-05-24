@@ -28,118 +28,44 @@ WillSmo... із кімнати номер:   1
 public class Main {
     public static void main(String[] args) {
 
-        Vizitor vizitor1 = new Vizitor();
-        vizitor1.setName("John Max  ");
-        vizitor1.setRoom(2003);
+        Vizitor vizitor1 = new Vizitor("John Max  ", 2003);
+        Vizitor vizitor2 = new Vizitor("Alice Johnson", 15);
+        Vizitor vizitor3 = new Vizitor("Alan Bell ", 15);
+        Vizitor vizitor4 = new Vizitor("Delia Ward", 15);
+        Vizitor vizitor5 = new Vizitor("Felicia Cox", 12);
+        Vizitor vizitor6 = new Vizitor("Irwin Brooks", 12);
+        Vizitor vizitor7 = new Vizitor("Irwin Hok ", 26);
+        Vizitor vizitor8 = new Vizitor("Jill Ramirez", 12);
+        Vizitor vizitor9 = new Vizitor("Larry Sanders", 30);
+        Vizitor vizitor10 = new Vizitor("Marc Henderson", 30);
+        Vizitor vizitor11 = new Vizitor("Nicky Long", 30);
+        Vizitor vizitor12 = new Vizitor("Omar Butler", 49);
+        Vizitor vizitor13 = new Vizitor("Omar Bryant", 52);
+        Vizitor vizitor14 = new Vizitor("Omar Diaz ", 83);
+        Vizitor vizitor15 = new Vizitor("John      ", 87);
+        Vizitor vizitor16 = new Vizitor("Terry Carter", 93);
+        Vizitor vizitor17 = new Vizitor("Viola Scott", 95);
+        Vizitor vizitor18 = new Vizitor("Capitan   ", 90005);
+        Vizitor vizitor19 = new Vizitor("Yolanda Lee", 900005);
+        Vizitor vizitor20 = new Vizitor("Zoe Moore ", 99);
 
-        Vizitor vizitor2 = new Vizitor();
-        vizitor2.setName("Alice Johnson");
-        vizitor2.setRoom(15);
+        Event event = new Event( new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor6, vizitor7, vizitor8, vizitor10, vizitor11, vizitor12, vizitor13, vizitor15, vizitor16, vizitor17});
+        event.addList(vizitor18);
+        event.addList(vizitor19);
+        event.addList(vizitor20);
 
-        Vizitor vizitor3 = new Vizitor();
-        vizitor3.setName("Alan Bell ");
-        vizitor3.setRoom(15);
+        System.out.println("==================================================");
+        Vizitor.addRegistered();
+        System.out.println("==================================================");
+        event.printingInfo(event);
 
-        Vizitor vizitor4 = new Vizitor();
-        vizitor4.setName("Delia Ward");
-        vizitor4.setRoom(15);
-
-        Vizitor vizitor5 = new Vizitor();
-        vizitor5.setName("Felicia Cox");
-        vizitor5.setRoom(12);
-
-        Vizitor vizitor6 = new Vizitor();
-        vizitor6.setName("Irwin Brooks");
-        vizitor6.setRoom(12);
-
-        Vizitor vizitor7 = new Vizitor();
-        vizitor7.setName("Irwin Brooks");
-        vizitor7.setRoom(12);
-
-        Vizitor vizitor8 = new Vizitor();
-        vizitor8.setName("Jill Ramirez");
-        vizitor8.setRoom(26);
-
-        Vizitor vizitor9 = new Vizitor();
-        vizitor9.setName("Larry Sanders");
-        vizitor9.setRoom(30);
-
-        Vizitor vizitor10 = new Vizitor();
-        vizitor10.setName("Marc Henderson");
-        vizitor10.setRoom(30);
-
-        Vizitor vizitor11 = new Vizitor();
-        vizitor11.setName("Nicky Long");
-        vizitor11.setRoom(30);
-
-        Vizitor vizitor12 = new Vizitor();
-        vizitor12.setName("Omar Butler");
-        vizitor12.setRoom(49);
-
-        Vizitor vizitor13 = new Vizitor();
-        vizitor13.setName("Omar Bryant");
-        vizitor13.setRoom(52);
-
-        Vizitor vizitor14 = new Vizitor();
-        vizitor14.setName("Omar Diaz ");
-        vizitor14.setRoom(83);
-
-        Vizitor vizitor15 = new Vizitor();
-        vizitor15.setName("John      ");
-        vizitor15.setRoom(87);
-
-        Vizitor vizitor16 = new Vizitor();
-        vizitor16.setName("Terry Carter");
-        vizitor16.setRoom(93);
-
-        Vizitor vizitor17 = new Vizitor();
-        vizitor17.setName("Viola Scott");
-        vizitor17.setRoom(95);
-
-        Vizitor vizitor18 = new Vizitor();
-        vizitor18.setName("Capitan   ");
-        vizitor18.setRoom(90005);
-
-        Vizitor vizitor19 = new Vizitor();
-        vizitor19.setName("Yolanda Lee");
-        vizitor19.setRoom(90005);
-
-        Vizitor vizitor20 = new Vizitor();
-        vizitor20.setName("Zoe Moore ");
-        vizitor20.setRoom(99);
-
-        Event event = new Event();
-        event.setVisitors(new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor7, vizitor8, vizitor9, vizitor10, vizitor11, vizitor12, vizitor13, vizitor14, vizitor15, vizitor16, vizitor18, vizitor19, vizitor20});
-        System.out.println();
-        event.printVisitors();
-
-        System.out.println();
-
-        for (Vizitor i: event.getVisitors()){
-            i.printVizitor();
+        for (int i = 0; i< event.getVisitors().length; i++){
+            Vizitor.printPerson(event.getVisitors()[i]);
         }
+        System.out.println("==================================================");
+        event.printTitle(event);
 
 
-//        vizitor1.printVizitor();
-//        vizitor2.printVizitor();
-//        vizitor3.printVizitor();
-//        vizitor4.printVizitor();
-//        vizitor5.printVizitor();
-//        vizitor6.printVizitor();
-//        vizitor7.printVizitor();
-//        vizitor8.printVizitor();
-//        vizitor9.printVizitor();
-//        vizitor10.printVizitor();
-//        vizitor11.printVizitor();
-//        vizitor12.printVizitor();
-//        vizitor13.printVizitor();
-//        vizitor14.printVizitor();
-//        vizitor15.printVizitor();
-//        vizitor16.printVizitor();
-//        vizitor17.printVizitor();
-//        vizitor18.printVizitor();
-//        vizitor19.printVizitor();
-//        vizitor20.printVizitor();
 
     }
 

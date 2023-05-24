@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Party/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Demo/Party/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo/Party/Vizitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo/Party/Vizitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bac6c052-59c9-481f-a234-285543336b69" />
+        <option name="url" value="https://github.com/SvitlanaShatilova/MyProjectOOP.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -162,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684698814232</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="OOP">
+      <created>1684699766355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684699766355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="OOP">
+      <created>1684699835553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684699835553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
