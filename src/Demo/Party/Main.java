@@ -68,6 +68,26 @@ public class Main {
 
         event.printVisitor(event.getVisitors());
 
+        System.out.println("==================================================");
+        event.printTitle(event);
+        event.setVisitors(event.deleteRoom(event.getVisitors(), 42));
+        event.printVisitor(event.getVisitors());
+
+        System.out.println("==================================================");
+        event.printTitle(event);
+        event.setVisitors(event.deleteRoom(event.getVisitors(), 15));
+        event.printVisitor(event.getVisitors());
+
+        System.out.println("==================================================");
+        event.printTitle(event);
+        event.setVisitors(event.deleteRoom(event.getVisitors(), 30));
+        event.printVisitor(event.getVisitors());
+
+        System.out.println("==================================================");
+        Vizitor.addRegistered();
+        System.out.println("==================================================");
+        event.printingInfo(event);
+        System.out.println("==================================================");
 
     }
 
