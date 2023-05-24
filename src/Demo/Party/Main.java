@@ -49,7 +49,7 @@ public class Main {
         Vizitor vizitor19 = new Vizitor("Yolanda Lee", 900005);
         Vizitor vizitor20 = new Vizitor("Zoe Moore ", 99);
 
-        Event event = new Event( new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor6, vizitor7, vizitor8, vizitor10, vizitor11, vizitor12, vizitor13, vizitor15, vizitor16, vizitor17});
+        Event event = new Event( new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor6, vizitor7, vizitor8, vizitor9, vizitor10, vizitor11, vizitor12, vizitor13, vizitor14, vizitor15, vizitor16, vizitor17});
         event.addList(vizitor18);
         event.addList(vizitor19);
         event.addList(vizitor20);
@@ -65,7 +65,20 @@ public class Main {
         System.out.println("==================================================");
         event.printTitle(event);
 
+        event.deleteName(event.getVisitors(), "John      ");
 
+        for (int i = 0; i< event.getVisitors().length; i++){
+            Vizitor.printPerson(event.getVisitors()[i]);
+        }
+
+        System.out.println("==================================================");
+        event.printTitle(event);
+
+        event.deleteRoom(event.getVisitors(), 42);
+
+        for (int i = 0; i< event.getVisitors().length; i++){
+            Vizitor.printPerson(event.getVisitors()[i]);
+        }
 
     }
 
