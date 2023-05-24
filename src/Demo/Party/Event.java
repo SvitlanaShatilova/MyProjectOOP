@@ -75,7 +75,7 @@ public class Event {
             }else{
                 temp[n] = visitors[i];
                 n++;
-                System.out.println(n);
+
             }
         }
         System.out.println(delName);

@@ -49,7 +49,7 @@ public class Main {
         Vizitor vizitor19 = new Vizitor("Yolanda Lee", 900005);
         Vizitor vizitor20 = new Vizitor("Zoe Moore ", 99);
 
-        Event event = new Event( new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor6, vizitor7, vizitor8, vizitor9, vizitor10, vizitor11, vizitor12, vizitor13, vizitor14, vizitor15, vizitor16, vizitor17});
+        Event event = new Event( new Vizitor[] {vizitor1, vizitor2, vizitor3, vizitor4, vizitor5, vizitor6, vizitor7, vizitor8, vizitor9, vizitor10, vizitor11, vizitor12, vizitor13, vizitor14, vizitor15, vizitor16, vizitor17});
         event.addList(vizitor18);
         event.addList(vizitor19);
         event.addList(vizitor20);
