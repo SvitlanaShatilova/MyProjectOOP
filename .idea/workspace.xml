@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP" />
+    <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/EX1/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/EX1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/EX1/Golub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/EX1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/EX1/Met.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/ClassRoom/BadPupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/ClassRoom/ClassRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/ClassRoom/ExcelentPupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/ClassRoom/GoodPupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/ClassRoom/Pupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test1/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test1/Golub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test1/Korova.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test2/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Test2/Vantazhivka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,21 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/MyProjectOne/MyProjectOne.iml&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/admin/IdeaProjects/MyProjectOne/MyProjectOne.iml",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.Party.Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\IdeaProjects\MyProjectOOP\src\Demo\Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClassRoom">
+    <configuration name="ClassRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Homework2205.ClassRoom.ClassRoom" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo.Party.*" />
+          <option name="PATTERN" value="Uspadkuvannya.Homework2205.ClassRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework0805.Matrix" />
+    <configuration name="Golub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Test1.Golub" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework0805.*" />
+          <option name="PATTERN" value="Uspadkuvannya.Test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework0805.MatrixNew" />
+    <configuration name="Korova" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Test1.Korova" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework0805.*" />
+          <option name="PATTERN" value="Uspadkuvannya.Test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vizitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.Party.Vizitor" />
+    <configuration name="Sedan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Test2.Sedan" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo.Party.*" />
+          <option name="PATTERN" value="Uspadkuvannya.Test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VizitorNameServise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo.Party.VizitorNameServise" />
+    <configuration name="Uspadkuvannya.EX1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.EX1.Main" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Demo.Party.*" />
+          <option name="PATTERN" value="Uspadkuvannya.EX1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Vizitor" />
-        <item itemvalue="Application.VizitorNameServise" />
-        <item itemvalue="Application.MatrixNew" />
-        <item itemvalue="Application.Matrix" />
+        <item itemvalue="Application.ClassRoom" />
+        <item itemvalue="Application.Uspadkuvannya.EX1.Main" />
+        <item itemvalue="Application.Sedan" />
+        <item itemvalue="Application.Korova" />
+        <item itemvalue="Application.Golub" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684930686299</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="OOP">
+      <created>1684930808265</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930808265</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
