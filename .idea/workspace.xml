@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50edd3a0-6bdc-4678-88e8-919888fac2bf" name="Changes" comment="OOP">
-      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/Vehicle/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/Vehicle/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/Vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/Vehicle/Саг.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/DocumentWorker/DocumentWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/DocumentWorker/ExpertDocumentWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/DocumentWorker/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Uspadkuvannya/Homework2205/DocumentWorker/ProDocumentWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       <recent name="C:\Users\admin\IdeaProjects\MyProjectOOP\src\Demo\Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vehicle">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClassRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Homework2205.ClassRoom.ClassRoom" />
       <module name="MyProjectOOP" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Korova" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Test1.Korova" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Uspadkuvannya.Homework2205.DocumentWorker.Main" />
       <module name="MyProjectOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Uspadkuvannya.Test1.*" />
+          <option name="PATTERN" value="Uspadkuvannya.Homework2205.DocumentWorker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Vehicle" />
         <item itemvalue="Application.ClassRoom" />
         <item itemvalue="Application.Uspadkuvannya.EX1.Main" />
         <item itemvalue="Application.Sedan" />
-        <item itemvalue="Application.Korova" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685030821907</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="OOP">
+      <created>1685036609478</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685036609478</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
