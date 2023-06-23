@@ -13,7 +13,7 @@ public class Car {
     public static void main(String[] args) {
        MessagePrice(); //static method
        Car car = new Car();
-       car.msgSpeed(); //public method
+       car.msgSpeed(); //public method //test
 
     }
 }
